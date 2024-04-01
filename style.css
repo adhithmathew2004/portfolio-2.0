@@ -81,7 +81,7 @@ body{
 
 .home .hero{
   min-height: 100vh;
-  background: url(.jpg/qwee.jpg ) no-repeat;
+  background: url(images/qwee.jpg ) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -345,7 +345,6 @@ body{
 
 
 
-/////////
 
 
 * {
@@ -404,7 +403,7 @@ input[type=submit]:hover {
   }
 }
 
-//////////
+
 
 
 .footer{
