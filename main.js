@@ -1,4 +1,3 @@
-<<<<<<< HEAD:main.js
 $(document).ready(function(){
 
     $('.fa-bars').click(function(){
@@ -24,7 +23,6 @@ $(document).ready(function(){
   });
 
 
-=======
 $(document).ready(function(){
 
     $('.fa-bars').click(function(){
@@ -50,5 +48,4 @@ $(document).ready(function(){
   });
 
 
->>>>>>> 79e5902eddb2dab4fbce236c19d4417ba3411b5d:portfolio website/portfolio-2.0/main.js
   
