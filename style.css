@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
 
 :root{
-  --orange:#5b534d;
+  --orange:#737171;
 }
 
 *{
@@ -24,11 +24,11 @@ body{
 .heading{
   font-size: 4rem;
   text-align: center;
-  letter-spacing: 1.7rem;
-  color:#8f8a8a;
+  letter-spacing: 1rem;
+  color:#000000;
   margin:2rem 0;
   padding-top: 6rem;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-style: solid;
   text-decoration-color: var(--orange);
   text-underline-offset:-1.4rem;
@@ -39,7 +39,7 @@ body{
   align-items: center;
   justify-content: space-between;
   width:100%;
-  background:#5a5959;
+  background:#000000;
   z-index: 100;
   padding:1rem 2rem;
   box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
@@ -63,11 +63,11 @@ body{
 
 .header nav ul li a{
   font-size: 2rem;
-  color:#9d8f8f;
+  color:#bdbbbb;
 }
 
 .header nav ul li a:hover{
-  color:#7d7a7a;
+  color:#3c3c3c;
   text-decoration: none;
 }
 
@@ -81,7 +81,7 @@ body{
 
 .home .hero{
   min-height: 100vh;
-  background: url(images/qwee.jpg ) no-repeat;
+  background: url(images/coverpage.jpg ) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -93,7 +93,7 @@ body{
 }
 
 .home .hero .text1{
-  text-align: center;
+  text-align: justify;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,8 +102,12 @@ body{
     font-family: cursive, sans-serif; /* Change font as desired */
     font-size: 100px; /* Change font size as desired */
     color: #fffdfd; /* Change text color as desired */
+
+   
+      
+    }
     
-}
+
 
 .home .hero .text2{
   font-size: 3rem;
@@ -201,7 +205,7 @@ body{
 }
 
 .service .box-container .box{
-  height:25rem;
+  height:15rem;
   width:25rem;
   box-shadow: 0 .2rem .5rem rgba(0,0,0,.3);
   border-left: .5rem solid var(--orange);
@@ -222,6 +226,16 @@ body{
   font-size: 1.1rem;
   margin:2rem 0;
 }
+
+
+
+
+
+
+
+
+
+
 
 .project{
   min-height:100vh;
@@ -343,7 +357,13 @@ body{
 
 
 
-
+.VIDEO {
+  position:CENTER;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
 
 
